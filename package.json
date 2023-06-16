@@ -1,0 +1,25 @@
+{
+	"name": "accesstoken-rotation",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^4.15.0",
+		"bcrypt": "^5.1.0",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.3.0",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"prisma": "^4.15.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}
